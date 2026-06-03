@@ -402,10 +402,19 @@
     </section>
 
     <section class="cta" id="contacto">
-      <h2>Convierte tu empresa en una máquina inteligente</h2>
-      <p>Agenda una auditoría gratuita y descubre qué puedes automatizar con IA.</p>
-      <a href="mailto:hola@neuraboost.ai" class="btn btn-primary">Contactar ahora</a>
-    </section>
+  <h2>Solicita tu auditoría gratuita</h2>
+  <p>Rellena el formulario y te contactaremos para ver qué procesos puedes automatizar con IA.</p>
+
+  <form class="contact-form" id="contactForm">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu email" required>
+    <input type="tel" name="telefono" placeholder="Tu teléfono">
+    <textarea name="mensaje" placeholder="Cuéntanos qué necesitas automatizar" required></textarea>
+
+    <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+    <p id="formMessage" class="form-message"></p>
+  </form>
+</section>
   </main>
 
   <footer>
